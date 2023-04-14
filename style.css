@@ -1,0 +1,396 @@
+.contenedor-padre{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+
+.barra-izquierda{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 15% 85%;
+    background-color: orchid;
+}
+
+.tuirer-logo-capsula{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.casa{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.texto-casa{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.planeta-tierra{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;    
+}
+
+.texto-explora{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;   
+}
+
+.campana{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;    
+}
+
+.texto-notificaciones{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;   
+}
+
+.sobre{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;       
+}
+
+.texto-mensajes{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;   
+}
+
+.marcador-de-pagina{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 2;       
+}
+
+.texto-marcador-de-pagina{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 3;      
+}
+
+.signo-de-dolar{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;      
+}
+
+.texto-tuirer-bleh{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end: 3;          
+}
+
+.icono-perfil{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 1;
+    grid-column-end: 2;  
+}
+
+.texto-perfil{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;       
+}
+
+.icono-tres-puntos{
+    width: 15px;
+    height: 15px;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 2;     
+}
+
+.texto-mas{
+    font-size: 15px;
+    font-weight: bold;
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 3;    
+}
+
+.boton-inferior-izquierdo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}   
+
+.boton-tuitear-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.boton-de-usuario{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+
+.barra-fija{
+    background-color: gray;
+}
+
+
+
+.menu-principal{
+    background-color: orchid;
+}
+
+.caja-superior-central{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 20% 40% 40% ;
+    grid-template-rows: 60% 40%;
+}
+
+.Para-vos{
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.Siguiendo{
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+.boton-de-inicio-central{
+    grid-row-start: 1;
+    grid-row-end: span 1;
+    grid-column-start: 1;
+    grid-column-end: span 1;
+}
+
+
+.tuirer-logo{
+    width: 25px;
+    height: 25px;
+}
+
+.seccion-del-tuit{
+display: grid;
+grid-template-columns: 1fr 7fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+.imagen-usuario-caja-de-tuit{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.que-esta-pasando{
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2; 
+}
+
+.contenedor-de-iconos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 8fr;
+}
+
+.iconos-de-tuit{
+    width: 15px;
+    height: 15px;
+
+}
+
+.tuitear-2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.seccion-de-los-tuits{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.cuadricula-de-tuits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.foto-de-usuario{ 
+    width: 25px;
+    height: 25px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.nombre-de-usuario{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.username{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.fecha{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 6;
+    grid-column-end: 7;   
+}
+
+.mas-opciones{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 7;
+    grid-column-end: 8;
+    width: 15px;
+    height: 15px;
+}
+
+.tuit-contenido{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+
+#responder-icono{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#retuit-icono{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#fav-icono{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#estadisticas-icono{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+#compartir-icono{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    
+}
+
+.iconos-de-tuit-2{ 
+    width: 15px;
+    height: 15px;
+}
+
+.imagen-de-usuario{
+    width: 15px;
+    height: 15px;
+}
+
+.imagen-usuario-caja-de-tuit{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+.usuario-ejemplo-2{ 
+    width: 25px;
+    height: 25px;
+}
+
+.nombre-de-usuario-1{
+    font-family: monospace;
+font-size: 30px;
+
+}
+
+.nombre-de-usuario-ejemplo-1{
+    font-family: monospace;
+font-size: 30px;
+    font-weight: bold;
+}
