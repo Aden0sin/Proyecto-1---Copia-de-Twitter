@@ -1,6 +1,11 @@
+*{
+    background-color: darkgrey;
+}
+
+
 .contenedor-padre{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     
 }
 
@@ -8,7 +13,6 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 15% 85%;
-    background-color: orchid;
 }
 
 .tuirer-logo-capsula{
@@ -186,17 +190,16 @@
 
 
 .barra-fija{
-    background-color: gray;
+
 }
 
 
 
 .menu-principal{
-    background-color: orchid;
+
 }
 
 .caja-superior-central{
-    background-color: aqua;
     display: grid;
     grid-template-columns: 20% 40% 40% ;
     grid-template-rows: 60% 40%;
@@ -393,4 +396,145 @@ font-size: 30px;
     font-family: monospace;
 font-size: 30px;
     font-weight: bold;
+}
+
+.barra-derecha{
+    display: grid;
+    grid-template-columns: 1;
+    
+}
+
+.barra-de-busqueda{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+
+.lupa{
+  grid-row-start: 1; 
+  grid-row-end: 1;
+  grid-column-start: 1;
+  grid-column-end: 2; 
+}
+
+.busca-en-tuirer{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.tendencias-para-vos{
+    display: grid;
+    grid-template-columns: 1;
+
+}
+
+.canasta-de-tendencia{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 5;
+}
+
+.encabezado-tendencia{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.categoria{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.tendencia{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.boton-tendencia{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.nombre-de-tendencia{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.cantidad-de-tuits{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.a-quien-seguir{
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.canasta-a-quien-seguir{
+    display: grid;
+    grid-template-columns: 4;
+    grid-template-rows: 3;
+}
+
+.encabezado-a-quien-seguir{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+}
+
+.foto-de-usuario-a-quien-seguir{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 45px;
+    width: 45px;
+}
+
+.nombre-a-quien-seguir{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.sobrenombre-a-quien-seguir{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;    
+}
+
+.te-sigue-a-quien-seguir{
+    grid-row-start: 3;
+    grid-row-end: 4; 
+    grid-column-start: 3;
+    grid-column-end: 4;    
+}
+
+.boton-seguir{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.iconos-de-barra-de-mensaje{
+    width: 15px;
+    height: 15px;
 }
